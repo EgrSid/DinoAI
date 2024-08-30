@@ -10,14 +10,14 @@ This script is a Pygame-based recreation of the iconic "Dino" game, where the pl
 - **Speed Indicator**: Displays the running speed of the dinosaur, which increases over time.
 - **Customizable Dinosaur**: The dinosaur’s name and skin can be customized, adding a personal touch to the game.
 
-![alt text](image.png)
+![alt text](images_for_readme/image.png)
 
 This implementation serves as a foundation for understanding how Pygame can be used to create interactive games with additional features.
 
 ### 2. `DinosaurAI.py`
 This script takes the Dino game to the next level by incorporating artificial intelligence. Using the [NEAT](https://neat-python.readthedocs.io/en/latest/) (NeuroEvolution of Augmenting Topologies) algorithm, the project trains a neural network to play the game automatically, evolving its ability to avoid obstacles and achieve high scores without human intervention.
 
-![alt text](image-1.png)
+![alt text](images_for_readme/image-1.png)
 
 #### How It Works:
 - **Game Integration**: Pygame is used to simulate the game environment, where multiple dinosaurs, each controlled by its own neural network, attempt to avoid cacti and survive as long as possible.
